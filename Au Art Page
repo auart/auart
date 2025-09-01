@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <style>
+    body {
+      background-color: black;
+      color: gold;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Alex Utts</h1>
+  <p>I create glass art and I’m exploring 3D design and visuals for music. My goal is to make hypnotic, immersive art that gives people a sense of wonder and escape.</p>
+</body>
+</html>
