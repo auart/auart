@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>auart site</title>
-  <style>
-    body {
-      background-color: black;
-      color: gold;
-      font-family: Arial, sans-serif;
-    }
-  </style>
+<title>Alex Utts Art</title>
 </head>
 <body>
-  <h1>AU Art</h1>
-  <p>I create glass art and I’m exploring 3D design and visuals for music. My goal is to make hypnotic, immersive art that gives people a sense of wonder and escape.</p>
+<h1>Au Art</h1>
+<p>Alex Utts comes from a background in glass art, but is interested in expanding into 3d design and animation. Alex wants to use these tools for both 3d printing and for creating visuals that connect to music. He is also drawn to interactive art installations, because he likes the idea of people being able to step inside an environment and feel something beyond their normal day-to-day life.
+
+The feelings he wants his work to bring out are inspiration, wonder, and even a kind of hypnotic escape. He wants to give people a break from the stress of the world and let them experience amazement, whether that’s through digital objects, landscapes, or immersive visuals. For him, it's about creating work that feels alive, that pulls someone in and makes them curious. His goal moving forward is to create digital experiences that carry the same sense of wonder that first drew him into glass art, while opening up new possibilities through technology. auglassart.com
+</p>
 </body>
 </html>
