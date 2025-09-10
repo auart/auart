@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 3: Depth of Field and Camera RAW</title>
+  <style>
+    body {
+      background-color: black;
+      color: gold;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    img {
+      max-width: 90%;
+      height: auto;
+      margin: 20px 0;
+      border: 2px solid gold;
+      border-radius: 8px;
+    }
+    nav a {
+      color: gold;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    p {
+      max-width: 800px;
+      margin: 30px auto;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h1>Homework 3: Depth of Field and Camera RAW</h1>
+
+  <h2>Part 1: Depth of Field</h2>
+
+  <h3>Deep Depth of Field</h3>
+  <img src="hunterdeepdof.jpg" alt="Deep DOF">
+
+  <h3>Shallow Depth of Field</h3>
+  <img src="shallowdof.jpg" alt="Shallow DOF">
+
+  <h3>Photoshopped Depth of Field</h3>
+  <img src="huntershallowedit.jpg" alt="Edited DOF">
+
+  <h2>Part 2: Camera RAW</h2>
+
+  <h3>Before</h3>
+  <img src="buscamerarawbefore.jpg" alt="Bus before edit">
+
+  <h3>After</h3>
+  <img src="buscamerarawafter.jpg" alt="Bus after edit">
+
+  <h3>Before</h3>
+  <img src="buildingcameraraw.jpg" alt="Building before edit">
+
+  <h3>After</h3>
+  <img src="buildingcamerarawedit.jpg" alt="Building after edit">
+
+  <h2>Reflection</h2>
+  <p>
+    250-word paragraph here
+  </p>
+
+  <nav>
+    <a href="index.html">Home</a>
+  </nav>
+</body>
+</html>
