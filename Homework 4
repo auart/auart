@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 4: Collage Draft</title>
+  <style>
+    body {
+      background-color: black;
+      color: gold;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    img {
+      max-width: 600px;
+      height: auto;
+      margin: 20px 0;
+      border: 2px solid gold;
+      border-radius: 8px;
+    }
+    nav a {
+      color: gold;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    p {
+      max-width: 800px;
+      margin: 30px auto;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+  <h1>Homework 4: Collage Draft</h1>
+
+  <h2>Image 1</h2>
+  <img src="busflip3.jpg" alt="Image 1">
+
+  <h2>Image 1 Screen Shot</h2>
+  <img src="busflip3screenshot.jpg" alt="Image 1 Screenshot">
+
+  <h2>Image 2</h2>
+  <img src="sunsetface.jpg" alt="Image 2">
+
+  <h2>Image 2 Screen Shot</h2>
+  <img src="sunsetfacescreenshot.jpg" alt="Image 2 Screenshot">
+
+  <h2>Explanation</h2>
+  <p>The title of this Image 1 is “When the music hits, you feel no pain.” It shows how music can create calm within chaos. The calm sea on the face represents inner peace, while the rough water around it reflects the world’s noise and stress.
+</p>
+  <p>For Image1, I chose a photo from Splash of a figure wearing headphones and cropped it to a 5x7 composition that balanced the negative space around the subject. I then used a sunset-over-ocean photo from Pexels, cropping the lower half to align the two suns with the figure’s eyes. After mirroring the sunset to form the face, I masked out the figure’s original face and placed the sunset image beneath it. For the background, I added a stormy sea image from Pexels and overlaid another subtle ocean texture to unify the composition. Finally, I applied a “Hard Mix” blending mode to the texture layer to create a glowing effect across the face and bring the piece together visually.
+</p>
+  <p>Image 2 represents the violence we have toward one another as humans. Even though we are very much the same, we act like animals, every person for themselves, in a fight for survival. The jaguars are the same but still fight, just as the buses are identical, yet about to crash. The smoke rising from the city shows the toxic energy spreading and condensing into stormy skies, raining down negativity that feeds the growing jungle below, a vicious ecosystem built from negativity continues…
+</p>
+  <p>For Image 2, I started with a photo I took of the street outside Hunter College from the sky bridge. I cropped it in half and mirrored it to create a symmetrical cityscape. I then found an image of two leopards fighting on Splash and used a mask to isolate them. Using additional masks, I added vines and jungle plants to make the city appear overgrown. I placed a stormy sky and a smokestack photo from Pexels in the background, using the “Lighter Color” blend mode to merge them naturally. To connect the leopards with the motion of the buses, I applied a motion blur and then adjusted the color balance, vibrance, and brightness to unify the collage. Finally, I overlaid a gold leaf texture to create a cohesive, reflective surface across the entire piece.
+</p>
+
+  <nav>
+    <a href="index.html">Home</a>
+  </nav>
+</body>
+</html>
