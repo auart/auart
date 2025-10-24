@@ -33,22 +33,33 @@
       text-decoration: underline;
     }
 
-    /* Add this part below */
-    .photo-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-      justify-content: center;
-      margin: 40px auto;
-      max-width: 600px;
-    }
+    .photo-star {
+  display: grid;
+  grid-template-areas:
+    "a b"
+    "c c"
+    "d e";
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 40px auto;
+}
 
-    .photo-grid img {
-      width: 200px;
-      height: 200px;
-      border: 2px solid gold;
-      border-radius: 8px;
-      object-fit: cover;
+.photo-star img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid gold;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.photo-star img.center {
+  grid-area: c;
+  width: 230px;
+  height: 230px;
+  margin: 0 auto;
+  display: block;
+}
     }
   </style>
 </head>
@@ -108,12 +119,13 @@
 
   <p>I didn’t know anything about the artist going into it, but I enjoyed his simple use of design and animation to create these interesting visuals. The massive screen was very cool. It inspired me to want to make my own animations like his.</p>
 
-  <div class="photo-grid">
-    <img src="moma2.jpg" alt="MoMA Image 1">
-    <img src="moma3.jpg" alt="MoMA Image 2">
-    <img src="moma4.jpg" alt="MoMA Image 3">
-    <img src="moma5.jpg" alt="MoMA Image 4">
-  </div>
+  <div class="photo-star">
+  <img src="moma1.jpg" alt="MoMA Image 1">
+  <img src="moma2.jpg" alt="MoMA Image 2">
+  <img src="moma3.jpg" alt="MoMA Image 3" class="center">
+  <img src="moma4.jpg" alt="MoMA Image 4">
+  <img src="moma5.jpg" alt="MoMA Image 5">
+</div>
 
   <p style="text-align: center;">
     <a href="https://www.moma.org/calendar/exhibitions/5774" target="_blank" style="color: gold; text-decoration: none;">
