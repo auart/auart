@@ -32,7 +32,26 @@
     nav a:hover {
       text-decoration: underline;
     }
+
+    /* Add this part below */
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      justify-content: center;
+      margin: 40px auto;
+      max-width: 600px;
+    }
+
+    .photo-grid img {
+      width: 200px;
+      height: 200px;
+      border: 2px solid gold;
+      border-radius: 8px;
+      object-fit: cover;
+    }
   </style>
+</head>
 </head>
 <body>
   <h1>Readings & Reflections</h1>
