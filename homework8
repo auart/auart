@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homework 8</title>
+  <style>
+    body {
+      background-color: black;
+      color: gold;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      font-size: 2.2em;
+      margin-top: 20px;
+    }
+    img {
+      max-width: 500px;
+      width: 90%;
+      border: 2px solid gold;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    nav a {
+      color: gold;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Homework 8: Animated GIFs</h1>
+
+  <img src="dragoneyegif.gif" alt="">
+
+  <nav>
+    <a href="index.html">Back to Home</a>
+  </nav>
+
+</body>
+</html>
