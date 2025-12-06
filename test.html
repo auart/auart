@@ -16,8 +16,8 @@
 
   .scene {
     position: relative;
-    width: 1200px;      /* Your image width */
-    height: 675px;      /* Your image height */
+    width: 1200px;      /* CHANGE if your image size is different */
+    height: 675px;      /* CHANGE if your image size is different */
     overflow: hidden;
   }
 
@@ -42,18 +42,16 @@
     100% { transform: translate(0px, 0px); }
   }
 
-  /* ⭐ PALM ANIMATION */
-  /* You MUST crop the palm overlay so that the trunk base stays still! */
+  /* ⭐ PALM ANIMATION — subtle pixel motion */
   .palms {
-    animation: palmSway 4s ease-in-out infinite;
-    transform-origin: bottom center;
+    animation: palmShift 3.2s ease-in-out infinite;
     opacity: 1;
   }
 
-  @keyframes palmSway {
-    0%   { transform: rotate(-1deg); }
-    50%  { transform: rotate(1deg); }
-    100% { transform: rotate(-1deg); }
+  @keyframes palmShift {
+    0%   { transform: translate(0px, 0px); }
+    50%  { transform: translate(2px, -1px); }
+    100% { transform: translate(0px, 0px); }
   }
 
 </style>
