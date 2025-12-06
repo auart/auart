@@ -16,8 +16,8 @@
 
   .scene {
     position: relative;
-    width: 1200px;   /* match your actual width */
-    height: 675px;   /* match your actual height */
+    width: 1200px;      /* Your image width */
+    height: 675px;      /* Your image height */
     overflow: hidden;
   }
 
@@ -27,7 +27,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    image-rendering: pixelated; /* keeps the sharp pixel look */
+    image-rendering: pixelated;
   }
 
   /* ⭐ WATER ANIMATION */
@@ -42,6 +42,20 @@
     100% { transform: translate(0px, 0px); }
   }
 
+  /* ⭐ PALM ANIMATION */
+  /* You MUST crop the palm overlay so that the trunk base stays still! */
+  .palms {
+    animation: palmSway 4s ease-in-out infinite;
+    transform-origin: bottom center;
+    opacity: 1;
+  }
+
+  @keyframes palmSway {
+    0%   { transform: rotate(-1deg); }
+    50%  { transform: rotate(1deg); }
+    100% { transform: rotate(-1deg); }
+  }
+
 </style>
 </head>
 
@@ -50,6 +64,7 @@
 <div class="scene">
   <img src="island_base.png" class="base">
   <img src="water_overlay.png" class="water">
+  <img src="palm_overlay.png" class="palms">
 </div>
 
 </body>
