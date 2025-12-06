@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Water Animation Test</title>
+
+<style>
+  body {
+    margin: 0;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .scene {
+    position: relative;
+    width: 1000px; /* adjust if needed */
+    height: auto;
+  }
+
+  .scene img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  /* Water Animation */
+  .water {
+    animation: waveShift 3s ease-in-out infinite;
+    opacity: 0.95; /* slight blending – optional */
+  }
+
+  @keyframes waveShift {
+    0% { transform: translateX(0px); }
+    50% { transform: translateX(3px); }
+    100% { transform: translateX(0px); }
+  }
+</style>
+
+</head>
+<body>
+
+<div class="scene">
+  <img src="island_base.png" class="base">
+  <img src="water_overlay.png" class="water">
+</div>
+
+</body>
+</html>
